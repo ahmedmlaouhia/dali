@@ -1,0 +1,74 @@
+h1 {
+    color: beige;
+    text-align: center;
+    margin: 150px auto 60px auto;
+}
+
+.car{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.carousel-inner{
+    width: 60vw;
+}
+
+.navbar{
+    background-color: rgb(107, 173, 199);
+    padding: 0px;
+}
+
+.btn{
+    background-color: rgb(30, 46, 117);
+    color: rgb(163, 216, 236);
+    width: 100%;
+    transition: 500ms;
+}
+
+.btn:hover{
+    background-color: rgb(89, 138, 167);
+    color:white;
+    transition: 500ms;
+}
+
+.rech{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    background-color: transparent;
+    color:white;
+    border: 2px solid rgb(107, 173, 199);
+    border-radius: 50em;
+    width: 450px;
+    margin: 5px;
+    padding: 5px 15px;
+}
+
+.btn1{
+    width: 150px;
+    background-color: rgb(107, 173, 199);
+    color: rgb(0, 0, 0);
+    margin: 20px!important;
+    border-radius: 50em;
+}
+
+*{
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-family: cursive;
+    outline: none;
+}
+
+body{
+    background-image: url('file:///C:/Users/jakson/Desktop/JKZ/hh.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0vh;
+}
